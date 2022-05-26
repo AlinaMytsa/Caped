@@ -1,0 +1,26 @@
+ @media (max-width: 1440px) {
+   .header{
+     &__wrapper{
+       gap: 50px;
+     }
+     &__top{
+       gap: 20px;
+
+       a{
+         font-size: 18px;
+       }
+     }
+     &__list1{
+       gap: 50px;
+     }
+   }
+  }
+  @media (max-width: 1024px) {
+    .header{
+      &__list1,
+      &__list2 {
+        display: none;
+      }
+    }
+  }
+
