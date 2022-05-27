@@ -13,4 +13,13 @@
     max-width: 767px;
   }
 }
-
+@media (max-width: 767px) {
+  .container{
+    max-width: 576px;
+  }
+}
+@media (max-width: 576px) {
+  .container{
+    max-width: 320px;
+  }
+}

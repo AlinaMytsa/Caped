@@ -23,4 +23,28 @@
       }
     }
   }
+@media ( max-width: 767px) {
+ .header{
+   &__wrapper{
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
 
+     .img{
+       margin: 51px 0 0 0;
+     }
+   }
+   &__top{
+     margin: 0;
+     gap: 40px;
+     align-items: center;
+   }
+ }
+}
+ @media (max-width: 576px) {
+   .header{
+     &__top{
+       gap: 10px;
+     }
+   }
+ }
